@@ -1,0 +1,78 @@
+.app {
+    background-color: #f0f0f0;
+    padding: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+    grid-gap: 10px; /* Gap between grid items */
+}
+
+.grid-item {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.note {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.note-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.note-content {
+    line-height: 1.4;
+}
+
+.square-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.square {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.square-content {
+    padding: 2px;
+    background-color: lightgray;
+    border-radius: 4px;
+}
+
+.square img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.square description {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.square h2 {
+    margin: 0;
+}
+
+.square p {
+    margin: 0;
+}
